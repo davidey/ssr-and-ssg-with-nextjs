@@ -16,7 +16,7 @@ const Home = () => {
       <h1>The Starwars films</h1>
       <ul>
         {data.map(item => (
-          <li key={item.name}>{item.name}</li>
+          <li key={item.title}>{item.title}</li>
         ))}
       </ul>
     </main>
